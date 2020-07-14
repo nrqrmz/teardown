@@ -12,6 +12,7 @@
   background: #605f5f;
   width: 100%;
   display: flex;
+  align-items: center;
 }
 
 .menu__container-logo {
@@ -30,6 +31,7 @@
   height: 5.5rem;
   position: absolute;
 }
+
 .image-logo {
   padding-top: -1rem;
   width: 4rem;
@@ -37,13 +39,80 @@
   position: absolute;
 }
 
-.menu__container-items {
-  display: flex;
+.menu__container-full-logo {
+  display: none;
   padding: 1rem 1rem;
   align-items: center;
-  justify-items: center;
   position: relative;
-  flex-grow: 1;
+  flex: 1 0 35px;
+  justify-content: start;
+}
+
+.menu__container-full-logo a {
+  width: 10rem;
+  height: 5.5rem;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-full-logo {
+  width: 10rem;
+  position: absolute;
+  top: 27px;
+}
+
+.menu__container-items {
+  display: flex;
+  padding: 0;
+  justify-items: start;
+  flex: 1;
+}
+
+.menu__container-items a {
+  font-size: 20px;
+  font-weight: 900;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+.menu__container-items a:hover {
+  border-radius: 10px;
+  background: rgba(62,62,62);
+}
+
+.navbar__articles {
+  display: none;
+}
+
+.navbar__guides {
+  display: none;
+}
+
+.navbar__books {
+  display: none;
+}
+
+.navbar__events {
+  display: none;
+}
+
+.navbar__events {
+  display: none;
+}
+
+.navbar__memberships {
+  display: none;
+}
+
+.navbar__jobs {
+  display: none;
+  justify-content: center;
+}
+
+.navbar__newsletter {
+  display: none;
 }
 
 .menu__container-btn {
@@ -57,7 +126,7 @@
 
 .menu__container-btn button {
   border: none;
-  color: white;
+  color: #fff;
   width: 7rem;
   height: 2.9rem;
   text-align: left;
@@ -118,4 +187,67 @@
   color: #605f5f;
 }
 
+@media screen and (min-width:678px) {
+  .navbar__articles {
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width:840px) {
+  .navbar__guides {
+    display: inline-flex;
+  }
+
+  .more-btn {
+    padding-left: 10px;
+    display: inline;
+  }
+
+  .menu-btn {
+    display: none;
+  }
+}
+
+@media screen and (min-width:900px) {
+  .navbar__books {
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width:1040px) {
+  .navbar__events {
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width:1160px) {
+  .navbar__memberships {
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .menu__container-logo {
+    display: none;
+  }
+
+  .menu__container-full-logo {
+    display: flex;
+  }
+}
+
+@media screen and (min-width:1300px) {
+  .navbar__jobs {
+    display: flex;
+  }
+}
+
+@media screen and (min-width:1430px) {
+  .navbar__newsletter {
+    display: inline-flex;
+  }
+}
+
 /* 4 Articles */
+
+/*demo of elements in the navbar*/
