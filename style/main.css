@@ -430,6 +430,8 @@
 .container__seven-articles-banners-and-ad {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .featured__seven-articles {
@@ -523,4 +525,174 @@
 
 .fa-arrow-right:hover {
   color: #ccc;
+}
+
+.grammarly {
+  padding: 2rem;
+  text-align: center;
+}
+
+.grammarly__legend {
+  padding: 2rem;
+}
+
+.grammarly__legend p {
+  color: rgb(129,129,129);
+}
+
+.fa-arrow-down {
+  padding-left: 3px;
+  color: rgb(129,129,129);
+}
+
+.grammarly__box {
+  display: grid;
+  background: #ccc;
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.grammarly__box img {
+  width: 200px;
+  filter: grayscale(100%);
+}
+
+.grammarly__box p {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  color: #333;
+  font-size: 20px;
+}
+
+.grammarly__box button {
+  padding: 0.8rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  color: #333;
+  font-size: 18px;
+}
+
+.banner__smashing-members {
+  padding: 1rem 2rem 2rem 2rem;
+  background: rgb(120,120,120);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.banner__smashing-members img {
+  filter: grayscale(100%);
+  width: 90%;
+}
+
+.banner__smashing-members h1 {
+  padding: 1rem;
+  color: #eee;
+}
+
+.banner__smashing-members a {
+  color: #eee;
+}
+.banner__smashing-members p {
+  padding: 1rem;
+  color: #eee;
+  font-size: 20px;
+}
+
+.banner__smashing-members button {
+  border: none;
+  border-radius: 10px;
+  color: #333;
+  font-size: 18px;
+  padding: 1rem;
+  font-weight: 900;
+}
+
+.banner__smashing-members button:hover {
+  color: rgb(120,120,120);
+}
+
+.banner__smashing-members small {
+  padding-top: 1rem;
+}
+
+.banner__smashing-members div {
+  padding-top: 1rem;
+}
+
+.banner__smashing-members small {
+  color: #eee;
+  font-size: 16px;
+}
+
+@media screen and (min-width:760px) {
+  .banner__smashing-members {
+    grid-column: span 2;
+  } 
+
+  .banner__smashing-members img {
+    width: 59.5%;
+  }
+}
+
+.banner__smashing-tv {
+  padding: 1rem 2rem 2rem 2rem;
+  background: rgb(120,120,120);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.banner__smashing-tv img {
+  filter: grayscale(100%);
+  width: 90%;
+}
+
+.banner__smashing-tv h1 {
+  padding: 1rem;
+  color: #eee;
+}
+
+.banner__smashing-tv a {
+  color: #eee;
+}
+.banner__smashing-tv p {
+  padding: 1rem;
+  color: #eee;
+  font-size: 20px;
+}
+
+.banner__smashing-tv button {
+  border: none;
+  border-radius: 10px;
+  color: #333;
+  font-size: 18px;
+  padding: 1rem;
+  font-weight: 900;
+}
+
+.banner__smashing-tv button:hover {
+  color: rgb(120,120,120);
+}
+
+.banner__smashing-tv small {
+  padding-top: 1rem;
+}
+
+.banner__smashing-tv div {
+  padding-top: 1rem;
+}
+
+.banner__smashing-tv small {
+  color: #eee;
+  font-size: 16px;
+}
+
+@media screen and (min-width:760px) {
+  .banner__smashing-tv {
+    grid-column: span 2;
+  } 
+
+  .banner__smashing-tv img {
+    width: 59.5%;
+  }
 }
