@@ -376,3 +376,13 @@
   font-size: 30px;
   font-weight: 700;
 }
+
+/* Featured Seven Articles */
+
+.container__seven-articles-banner-and-ad {
+  display: grid;
+}
+
+.featured__seven-articles {
+  padding: 2rem;
+}
