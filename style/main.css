@@ -379,10 +379,100 @@
 
 /* Featured Seven Articles */
 
-.container__seven-articles-banner-and-ad {
+.container__seven-articles-banners-and-ad {
   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
 .featured__seven-articles {
-  padding: 2rem;
+  padding: 3rem;
+  position: relative;
+  height: 90vh;
+}
+
+.featured__seven-articles:hover {
+  background: #eee;
+  transition: all 0.2s ease-in;
+  transform: scale(1.05);
+}
+
+.days__ago h6 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: rgb(129, 129, 129);
+}
+
+.featured__title {
+  padding-top: 1rem;
+  text-transform: capitalize;
+}
+
+.featured__title a {
+  color: #111;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.featured__title a:hover {
+  color: rgb(129,129,129);
+}
+
+.featured__author {
+  padding-top: 2rem;
+}
+
+.featured__author-no-underlined {
+  color: rgb(129,129,129);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.featured__author-underlined {
+  color: rgb(129,129,129);
+  text-transform: capitalize;
+  font-weight: 700;
+}
+
+.featured__author-underlined:hover {
+  color: #111;
+}
+
+.featured__paragraph {
+  padding-top: 2rem;
+}
+
+.featured__paragraph-style {
+  color: #222;
+  font-size: 24px;
+}
+
+.featured__arrow {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0;
+  bottom: 0;
+}
+
+.fa-arrow-right {
+  color: #333;
+  font-size: 40px;
+}
+
+.featured__arrow:hover {
+  padding-left: 2rem;
+  padding-top: 2rem;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #333;
+  left: 0;
+  bottom: 0;
+}
+
+.fa-arrow-right:hover {
+  color: #ccc;
 }
