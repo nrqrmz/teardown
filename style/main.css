@@ -788,6 +788,9 @@
   width: 90%;
 }
 
+
+/* Community links*/
+
 .community__links { 
   padding: 3rem 3rem;
 }
@@ -799,13 +802,15 @@
   font-weight: 700;
 }
 
+/* Person of the week */
+
 .person__of__the__week {
   display: grid;
   grid-template-columns: 1fr;
   padding: 2rem;
 }
 
-@media screen and (min-width:680px) {
+@media screen and (min-width:800px) {
   .person__of__the__week {
     display: grid;
     grid-template-columns: repeat(auto-fit, 300px minmax(300px, 1fr));
@@ -851,5 +856,5 @@
   color: #444;
 }
 
-
+/* Six featured articles */
 
