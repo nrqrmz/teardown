@@ -787,3 +787,69 @@
   filter: grayscale(100%);
   width: 90%;
 }
+
+.community__links { 
+  padding: 3rem 3rem;
+}
+
+.community__links p {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.person__of__the__week {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 2rem;
+}
+
+@media screen and (min-width:680px) {
+  .person__of__the__week {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 300px minmax(300px, 1fr));
+    padding: 2rem;
+  }
+}
+
+.person__of__the__week-image {
+  padding: 1rem;
+}
+
+.person__of__the__week-image img {
+  filter: grayscale(100%);
+  border: 10px solid #ccc;
+  border-radius: 10px;
+}
+
+.person__of__the__week-tap-container {
+  text-align: left;
+}
+
+.person__of__the__week-title {
+  padding: 1rem;
+}
+
+.person__of__the__week-title p {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+  color: #666;
+}
+
+.person__of__the__week-paragraph {
+  padding: 1rem;
+}
+
+.person__of__the__week-paragraph p {
+  font-size: 24px;
+  color: #555;
+}
+
+.person__of__the__week-paragraph a {
+  color: #444;
+}
+
+
+
