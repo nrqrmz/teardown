@@ -696,3 +696,94 @@
     width: 59.5%;
   }
 }
+
+/* Divider */
+
+.divider {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  text-align: center;
+}
+
+.divider a {
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.divider a:hover {
+  color: #797777;
+}
+
+.divider i {
+  padding-left: 10px;
+  color:#333;
+}
+
+/* Banner Click Book */
+
+.banner__click-book {
+  margin: 0;
+  height: 1500px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.1));
+  padding: 2rem 2rem 2rem 2rem;
+  text-align: center;
+}
+
+.banner__click-book-date {
+  padding-top: 4rem;
+}
+
+.banner__click-book-date p {
+  text-transform: uppercase;
+  color: #eee;
+  font-weight: 700;
+  font-size: 24px;
+}
+.banner__click-book-title {
+  padding: 4rem 4rem 0 4rem;
+}
+
+.banner__click-book-title a {
+  color: #eee;
+  text-transform: capitalize;
+  font-weight: 900;
+  font-size: 76px;
+  letter-spacing: 0.25rem;
+}
+
+.banner__click-book-paragraph {
+  padding: 5rem 4rem 0 4rem;
+}
+
+.banner__click-book-paragraph p {
+  color: #eee;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.banner__click-book-button {
+  padding-top: 4rem;
+}
+.banner__click-book-button button {
+  color: #666;
+  border: none;
+  padding: 1rem;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.banner__click-book-button button:hover {
+  color: #222;
+}
+
+.banner__click-book-image {
+  padding: 2rem;
+}
+
+.banner__click-book-image img {
+  filter: grayscale(100%);
+  width: 90%;
+}
