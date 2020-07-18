@@ -2,7 +2,7 @@
 
 This project is a heat map of the Smashing Magazine. This project works with visual hierarchy.
 
-![webpage screenshot](assets/screenshot5.png)
+![webpage screenshot](https://raw.githack.com/nrqrmz/teardown/smashing/index.html)(assets/screenshot5.png)
 
 It consist of a navigation bar, the different section and a footer at the end of the page.
 
@@ -35,7 +35,7 @@ Contributions, issues and feature requests are welcome!
 Give a star if you like this project!
 
 # Acknowledgments
-This project if part of the Microverse program.
+This project is part of the Microverse program.
 
 # License
 This project is Microverse licensed.
