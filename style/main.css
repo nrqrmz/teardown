@@ -16,6 +16,12 @@
   align-items: center;
 }
 
+.menu-ul {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
 .menu__container-logo {
   display: flex;
   padding: 1rem 1rem;
