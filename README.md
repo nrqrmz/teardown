@@ -2,9 +2,9 @@
 
 This project is a heat map of the Smashing Magazine. This project works with visual hierarchy.
 
-![webpage screenshot](assets/screenshot5.png)(https://raw.githack.com/nrqrmz/teardown/smashing/index.html)
+<img src="assets/screenshot5.png" alt="Markdown Monster icon"/>
 
-It consist of a navigation bar, the different section and a footer at the end of the page.
+It consist of a navigation bar, a main tag containing the different sections and a footer at the end of the page.
 
 # Built with
 
