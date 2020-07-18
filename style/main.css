@@ -1243,15 +1243,15 @@
 }
 
 .footer__links-list-ul {
+  width: 100%;
   display: flex;
-  list-style: none;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer__links-list-li {
-  flex: 1 0 180px;
-  list-style: none;
-  color: #ccc;
+  display: list-item;
+  margin: 1.5rem;
 }
 
 .footer__commitment {
