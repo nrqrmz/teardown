@@ -2,7 +2,7 @@
 
 This project is a heat map of the Smashing Magazine. This project works with visual hierarchy.
 
-![webpage screenshot](https://raw.githack.com/nrqrmz/teardown/smashing/index.html)(assets/screenshot5.png)
+![webpage screenshot](assets/screenshot5.png)(https://raw.githack.com/nrqrmz/teardown/smashing/index.html)
 
 It consist of a navigation bar, the different section and a footer at the end of the page.
 
